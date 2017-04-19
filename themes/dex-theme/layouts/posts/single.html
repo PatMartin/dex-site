@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<H1>SINGLE POST</H1>
+<div id="toc">
+    {{ .TableOfContents }}
+</div>
+
+<div class="container">
+    <div>
+        {{ .Content }}
+    </div>
+
+</div>
+
+{{ partial "disqus.html" . }}
+{{ partial "footer.html" . }}
+

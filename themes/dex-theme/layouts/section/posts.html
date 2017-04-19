@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<div class="container">
+    {{ range .Data.Pages }}
+    <div>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a> <i><small>Posted {{ .Date.Format "Mon, Jan 2, 2006" }}</small></i></h3>
+        <p>{{ .Summary }}</p>
+    </div>
+    {{ end }}
+    {{ partial "container-footer.html" . }}
+</div>
+
+{{ partial "footer.html" . }}

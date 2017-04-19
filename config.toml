@@ -1,0 +1,65 @@
+languageCode = "en-us"
+license = "APL 2"
+title = "Dex"
+baseurl = "/"
+theme = "dex-theme"
+features = [ "disqus", "google analytics", "share" ]
+disqusShortName = "dex"
+sectionPagesMenu = "main"
+
+enableRobotsTXT = true
+googleAnalytics = "UA-89507292-1"
+
+[author]
+  name = "Patrick Martin"
+  homepage = "https://dexvis.net/"
+
+[params]
+  custom_css = ["css/custom.css"]
+
+[page]
+  css = []
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = ""
+    identifier = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Videos"
+    pre = ""
+    identifier = "videos"
+    url = "/videos.html"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    pre = ""
+    identifier = "posts"
+    url = "/posts.html"
+    weight = 4
+  [[menu.main]]
+    name = "Documentation"
+    pre = ""
+    identifier = "docs"
+    url = "/docs.html"
+    weight = 2
+  [[menu.main]]
+    name = "Releases"
+    pre = ""
+    identifier = "releases"
+    url = "/releases.html"
+    weight = 6
+  [[menu.main]]
+    name = "About"
+    pre = ""
+    identifier = "about"
+    url = "/about.html"
+    weight = 8
+  [[menu.main]]
+    name = "Github"
+    pre = ""
+    identifier = "github"
+    url = "https://github.com/PatMartin/dex"
+    weight = 7

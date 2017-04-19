@@ -1,0 +1,16 @@
+<div>
+    <ul class="nav nav-pills">
+        <li role="navigation"><a style="margin: 0px; padding: 0px;" href="/"><img src="/images/dexlogo_small.png"></a></li>
+        {{ range .Site.Menus.main }}
+        <li role="navigation" {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }}>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+        <li role="navigation"><a href="http://www.ej-technologies.com/" style="margin: 0px; padding: 0px;" href="/"><img src="/images/thanks3.png"></a></li>
+        <li role="navigation">
+            <a href="https://twitter.com/patrickm145"
+               class="twitter-follow-button"
+               data-size="large" data-show-screen-name="false"
+               data-show-count="false">Follow @patrickm145</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>        </li>
+    </ul>
+</div>
