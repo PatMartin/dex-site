@@ -1,6 +1,6 @@
 languageCode = "en-us"
 license = "APL 2"
-title = "Dex"
+title = "Dex : Java Data Visualization"
 baseurl = "/"
 theme = "dex-theme"
 features = [ "disqus", "google analytics", "share" ]
