@@ -1,5 +1,5 @@
 +++
-title = "_index"
+title = "Dex : Data Visualization Tool"
 date = "2017-04-17T03:56:37-05:00"
 
 [menu.main]
@@ -10,7 +10,7 @@ date = "2017-04-17T03:56:37-05:00"
 
 Dex is an application which allows its users to harness data in new, creative and
 sometimes amazing ways.  With Dex, users can manipulate and visualize their
-data in sophisticated ways without the need for becoming a programmer.
+data in sophisticated ways without the need programming.
 
 ## dex.js
 
