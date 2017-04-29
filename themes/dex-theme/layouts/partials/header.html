@@ -5,10 +5,9 @@
     <title>{{ .Site.Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css"/>
+    <meta http-equiv="Expires" content="1" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" href="/css/hugo-bootswatch.css">
+    <!--link rel="stylesheet" href="/css/hugo-bootswatch.css"-->
     <!--link rel="stylesheet" href="/css/custom.css" media="screen"-->
     {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}" media="screen">
@@ -16,8 +15,6 @@
     {{ range .Params.params.css }}
     <link rel="stylesheet" href="{{ . }}" media="screen">
     {{ end }}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
 
     <style>
@@ -88,9 +85,6 @@
 </style>
   </head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-  <script src="/js/dex.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
 
   {{ range .Params.params.scripts }}

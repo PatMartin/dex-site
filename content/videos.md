@@ -5,18 +5,21 @@ title = "Videos"
   identifier = "videos"
 +++
 
-# Dex Installation
+# Dex Videos
+
+Here are a few videos to help aid folks in quickly becoming productive with Dex.
+
+## Installation
 
 This brief video covers basic installation.
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/rMb1lMCRFuE"></iframe>
 
-# Promo Video
+## Promo Video
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/9yvzf_jWtaw"></iframe>
 
-
-# Tutorials
+## Tutorials
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/aIcriX8M7jo"></iframe>
 <iframe width="854" height="480" src="https://www.youtube.com/embed/oyMAmHs4X08"></iframe>
@@ -28,7 +31,7 @@ This brief video covers basic installation.
 <iframe width="854" height="480" src="https://www.youtube.com/embed/3RqjVrJMDPk"></iframe>
 <iframe width="854" height="480" src="https://www.youtube.com/embed/OylDoz89N6g"></iframe>
 
-# Miscellaneous
+## Miscellaneous
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/YqSBkH7uf9I"></iframe>
 <iframe width="854" height="480" src="https://www.youtube.com/embed/eUmcVtIOcc0"></iframe>

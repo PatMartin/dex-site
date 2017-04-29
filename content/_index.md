@@ -8,22 +8,14 @@ date = "2017-04-17T03:56:37-05:00"
 
 # Dex
 
-Dex is an application which allows its users to harness data in new, creative and
-sometimes amazing ways.  With Dex, users can manipulate and visualize their
-data in sophisticated ways without the need programming.
-
-## dex.js
+Dex is an application written in Java and Groovy using JavaFX, which allows
+its users to harness data in new, creative and sometimes amazing ways.
+With Dex, users can manipulate and visualize their data in sophisticated
+ways without the need for programming.
 
 Dex has a sister project [dex.js](https://dexjs.net) which provides many of the
 underlying web visuals.  If you're looking for a Javascript visualization framework
 and don't mind some light coding, you may be interested in that as well.
-
-## Promo Video
-
-This video is a bit dated, but it still does a pretty good job of conveying the basic
-ideas behind how Dex works.
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/9yvzf_jWtaw"></iframe>
 
 ## Capabilities
 
@@ -37,14 +29,13 @@ ideas behind how Dex works.
   * **Document** your workflows.
   * **Save** your workflows for later use.
 
-# Visualizing Data
+## Sample Visuals
 
-A picture is worth a thousand words, so here are a few of the visuals you can
-achieve with Dex.
+Here are a few of the visuals you can achieve with Dex.
 
 __Click on any of the images to interact with a live version.__
 
-## C3 Charts
+### C3 Charts
 
 These examples are based upon [C3js](https://c3js.org).
 
@@ -55,7 +46,7 @@ These examples are based upon [C3js](https://c3js.org).
 [![C3 Pie Charts](/viz/main/c3_pie_chart.png)](/viz/main/c3_pie_chart.html)
 [![C3 Scatter Plots](/viz/main/c3_scatterplot.png)](/viz/main/c3_scatterplot.html)
 
-## D3 Charts
+### D3 Charts
 
 These examples are based upon [D3js](https://d3js.org).
 
@@ -72,7 +63,7 @@ These examples are based upon [D3js](https://d3js.org).
 [![Sunburst](/viz/main/d3_sunburst.png)](/viz/main/d3_sunburst.html)
 [![Treemap](/viz/main/d3_treemap.png)](/viz/main/d3_treemap.html)
 
-## Combination Charts
+### Combination Charts
 
 These examples show charts interacting with other charts.
 
@@ -80,27 +71,27 @@ These examples show charts interacting with other charts.
 [![Parallel Coordinates to Dendrogram](/viz/main/pc2dendrogram.png)](/viz/main/pc2dendrogram.html)
 [![Parallel Coordinates to Table](/viz/main/pc2table.png)](/viz/main/pc2table.html)
 
-## D3 Plus Charts
+### D3 Plus Charts
 
 These examples are based upon [D3 Plus](https://d3plus.org).
 
 [![Ring Network](/viz/main/d3plus_ring_network.png)](/viz/main/d3plus_ring_network.html)
 
-## Google Charts
+### Google Charts
 
 These examples are based upon [Google Charts](https://developers.google.com/chart/).
 
 [![Word Tree](/viz/main/google_word_tree.png)](/viz/main/google_word_tree.html)
 [![Timeline](/viz/main/google_timeline.png)](/viz/main/google_timeline.html)
 
-## NVD3 Charts
+### NVD3 Charts
 
 These examples are based upon [NVD3](https://nvd3js.org).
 
 [![NVD3 Bubble Chart](/viz/main/nvd3_bubblechart.png)](/viz/main/nvd3_bubblechart.html)
 [![NVD3 Stacked Area Chart](/viz/main/nvd3_stacked_area_chart.png)](/viz/main/nvd3_stacked_area_chart.html)
 
-## Vis.js Charts
+### Vis.js Charts
 
 These examples are based upon [vis.js](https://visjs.org).
 
@@ -110,13 +101,13 @@ These examples are based upon [vis.js](https://visjs.org).
 [![Network](/viz/main/visjs_network.png)](/viz/main/visjs_network.html)
 [![Timeline](/viz/main/visjs_timeline.png)](/viz/main/visjs_timeline.html)
 
-## Plotly
+### Plotly
 
 This example is based upon [plot.ly](https://plot.ly/).
 
 [![World Chloropleth](/viz/main/plotly_world_chloropleth.png)](/viz/main/plotly_world_chloropleth.html)
 
-## SQL
+### SQL
 
 Dex can deploy visualizations with an embedded SQL query engine allowing users to
 isolate interesting subsets of their data.
@@ -124,7 +115,7 @@ isolate interesting subsets of their data.
 [![SQL to Parallel Coordinates](/viz/main/sql2parallel_coordinates.png)](/viz/main/sql2parallel_coordinates.html)
 [![SQL to Table](/viz/main/sql2table.png)](/viz/main/sql2table.html)
 
-## Tables
+### Tables
 
 Dex supports tables with various capabilities.
 
@@ -132,7 +123,7 @@ Dex supports tables with various capabilities.
 [![JQ Grid](/viz/main/table_jq.png)](/viz/main/table_jq.html)
 [![Searchable Table](/viz/main/table_searchable.png)](/viz/main/table_searchable.html)
 
-## UML Diagrams
+### UML Diagrams
 
 Dex supports basic UML diagrams.
 
@@ -140,7 +131,7 @@ Dex supports basic UML diagrams.
 [![Sequence Diagram](/viz/main/uml_sequence_diagram.png)](/viz/main/uml_sequence_diagram.html)
 
 
-## WebGL
+### WebGL
 
 Through the use of the WebDriver tool, we may create and visualize complex 3D
 visuals thanks to WebGL and Three.js.
@@ -149,7 +140,7 @@ visuals thanks to WebGL and Three.js.
 [![Graph Viz](/viz/main/graphviz.png)](/viz/main/graphviz.html)
 [![Graph Viz](/viz/main/webgl_dexparticles.png)](/viz/main/webgl_dexparticles.html)
 
-# Credits
+## Credits
 
   * **Mom and dad** for instilling curiousity and for the countless personal sacrifices
   which allowed me to attend college and pursue my interests.
