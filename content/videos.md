@@ -15,6 +15,12 @@ This brief video covers basic installation.
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/rMb1lMCRFuE"></iframe>
 
+## Dex 0.9.0.1
+
+Introducing some of the latest capabilities in Dex 0.9.0.
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/r54dsc58c_s"></iframe>
+
 ## Promo Video
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/9yvzf_jWtaw"></iframe>
